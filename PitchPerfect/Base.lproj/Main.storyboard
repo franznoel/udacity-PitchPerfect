@@ -53,6 +53,10 @@
                             <constraint firstItem="8bJ-aV-llV" firstAttribute="top" secondItem="V57-Br-IWM" secondAttribute="bottom" constant="7.5" id="p2Y-AW-IqB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="recordButton" destination="V57-Br-IWM" id="jhj-je-k4F"/>
+                        <outlet property="stopRecordingButton" destination="TzQ-Jb-Uuc" id="UE8-QO-SW1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
